@@ -4,6 +4,29 @@
   
     
     <entry>
+      <title>Photoshop中将插图转换为渐变线稿效果</title>
+      <link href="/2021/08/29/PSColorSketch/"/>
+      <url>/2021/08/29/PSColorSketch/</url>
+      
+        <content type="html"><![CDATA[<p>今天刚刚看到一个不错的ps的图片效果，就先码在这了。</p><h1 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h1><p>Adobe Photoshop 2021 v22.5.0 理论上应该适用于所有较新版本的ps。</p><h1 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h1><p>原图：<br><img src="original.jpg" alt="original"><br>结果：<br><img src="result.jpg" alt="result"></p><h1 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h1><ol><li>将图片图层复制一份，进行去色<code>Shift + Ctrl + U</code><br><img src="s1.png" alt="s1">  </li><li>再次复制图层，对最上层图层应用反相<code>Ctrl + I</code><br><img src="s2.png" alt="s2">  </li><li>对该图层应用最小值滤镜(滤镜&gt;其它&gt;最小值)，半径<code>1</code>，模式<code>方形</code>  </li><li>调整第三图层混合模式为<code>颜色减淡</code>，此时插图已还原为线稿<br><img src="s4.png" alt="s4">  </li><li>在最上层新建图层，应用一个渐变，并设置混合模式为<code>滤色</code>，即可应用渐变线稿的效果<br><img src="s5.png" alt="s5"></li></ol><h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><ol><li>用作素材的插图最好不要有太多背景，否则容易导致人像不突出  </li><li>追求精致的话可以适当调节色阶让线条更加明显</li></ol><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p>方法来自此视频：<a href="https://www.bilibili.com/video/BV1Uf4y1n7zK">BV1Uf4y1n7zK</a></p><p>示例所用图片: <a href="https://www.pixiv.net/artworks/63093148">pixiv id 63093148</a> 侵删</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> PixelArt </tag>
+            
+            <tag> Photoshop </tag>
+            
+            <tag> Anime </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>一台使用Modern Standby的电脑安装了G Hub， 这是它睡眠状态的变化--解决G Hub与Modern Standby不兼容问题</title>
       <link href="/2021/08/02/ModernStandbyWithGHub/"/>
       <url>/2021/08/02/ModernStandbyWithGHub/</url>
