@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>在Manjaro中使用BootSplash配置启动动画</title>
+      <link href="/2022/01/23/ManjaroSplash/"/>
+      <url>/2022/01/23/ManjaroSplash/</url>
+      
+        <content type="html"><![CDATA[<p>最近全新安了一个Manjaro, 发现开机只有黑屏没有启动动画或者日志.</p><h1 id="恢复启动日志"><a href="#恢复启动日志" class="headerlink" title="恢复启动日志"></a>恢复启动日志</h1><p>众所周知, linux系统启动的时候默认是会打出详细的启动日志的(就是一堆OK的那一个).</p><p>但是在Manjaro中默认并不会打印出这部分日志, 因为Manjaro默认在启动参数中添加了<code>quiet</code>来隐藏启动日志, 要想恢复只需要修改grub配置文件即可</p><p>打开终端, 运行以下指令修改grub config:</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kate /etc/default/grub</span><br></pre></td></tr></table></figure><div class="note warning flat"><p>如果你希望使用其它文本编辑器来编辑(如vim), 你可能需要使用<code>sudo</code>运行,否则无法保存.</p></div><p>找到类似以下的一行:</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GRUB_CMDLINE_LINUX_DEFAULT=<span class="string">&quot;quiet apparmor=1 security=apparmor udev.log_priority=3&quot;</span></span><br></pre></td></tr></table></figure><p>将其中的<code>quiet</code>删除, 然后保存.</p><p>最后别忘了要更新grub, 才可以应用刚刚所作的更改. 在终端上运行:</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo update-grub</span><br></pre></td></tr></table></figure><p>重启即可看到熟悉的日志效果了.</p><p><del>可以把电脑拿去星巴克装逼了</del></p><h1 id="使用BootSplash配置启动动画"><a href="#使用BootSplash配置启动动画" class="headerlink" title="使用BootSplash配置启动动画"></a>使用BootSplash配置启动动画</h1><p>在开始前强烈建议运行以下命令确保所有软件包与软件源已更新到最新:</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo pacman -Syu</span><br></pre></td></tr></table></figure><p>运行以下命令安装必要的BootSplash组件, 主题与配置工具</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo pacman -S bootsplash-systemd bootsplash-manager bootsplash-theme-manjaro</span><br></pre></td></tr></table></figure><p>安装完成后, 运行以下命令, <code>bootsplash-manager</code>就可以帮你完成剩余的所有设置了.</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo bootsplash-manager -s manjaro</span><br></pre></td></tr></table></figure><div class="note warning flat"><p>执行上面的命令会自动执行<code>mkinitcpio</code>和<code>update-grub</code></p></div><p>当然你也可以安装其它的<code>bootsplash-manager</code>主题, 只要在<code>pacman -S bootsplash-theme-</code>后按Tab键即可查看所有的主题. 在AUR仓库中可能有更多的主题可供下载.</p><p>BootSplash主题基本上就是不同的logo加一个Win10的ProcessRing, 其中<code>bootsplash-theme-vendor</code>可以将主板品牌logo作为图标(需要UEFI固件支持)</p><blockquote><p>如果你不想用这样的Win10风开机动画的话, 可以考虑安装Plymouth<br>只要参考<a href="https://wiki.manjaro.org/index.php/Plymouth">这篇文章</a>即可, 此处不作展开<br>Plymouth有非常丰富的动画主题可以下载, 参考 <a href="https://github.com/adi1090x/plymouth-themes">https://github.com/adi1090x/plymouth-themes</a><br>总之比这个win10风好看多了 (</p></blockquote><p><img src="bootsplash_result.png" alt="result"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Arch Linux </tag>
+            
+            <tag> Manjaro </tag>
+            
+            <tag> Linux </tag>
+            
+            <tag> KDE </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Photoshop中将插图转换为渐变线稿效果</title>
       <link href="/2021/08/29/PSColorSketch/"/>
       <url>/2021/08/29/PSColorSketch/</url>
