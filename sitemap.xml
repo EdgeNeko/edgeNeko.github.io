@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://edgeneko.aiursoft.com/categories/index.html</loc>
+    
+    <lastmod>2022-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://edgeneko.aiursoft.com/link/index.html</loc>
     
     <lastmod>2022-07-31</lastmod>
@@ -83,15 +92,6 @@
   </url>
   
   <url>
-    <loc>http://edgeneko.aiursoft.com/categories/index.html</loc>
-    
-    <lastmod>2021-06-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://edgeneko.aiursoft.com/2019/01/31/SaberColorfulStartmenu/</loc>
     
     <lastmod>2021-06-22</lastmod>
@@ -130,7 +130,7 @@
 
   <url>
     <loc>http://edgeneko.aiursoft.com/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,168 +138,168 @@
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/Windows/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/Linux/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/C/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/Visual-C/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/Console/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/Web/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/Electron/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/Angular/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/Desktop/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/Arch-Linux/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/Manjaro/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/KDE/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/WPF/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/Daily/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/PixelArt/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/Photoshop/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/Anime/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/Win10%E7%BE%8E%E5%8C%96/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/SakuraTrak-Studio/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/kawaii/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/Bash/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/Terminal/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/Shell/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://edgeneko.aiursoft.com/tags/PowerShell/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
