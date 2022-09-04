@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>EdgeNeko&#39;s blog</title>
-  <icon>http://edgeneko.aiursoft.com/img/favicon.png</icon>
+  <icon>https://edgeneko.aiursoft.com/img/favicon.png</icon>
   
-  <link href="http://edgeneko.aiursoft.com/atom.xml" rel="self"/>
+  <link href="https://edgeneko.aiursoft.com/atom.xml" rel="self"/>
   
-  <link href="http://edgeneko.aiursoft.com/"/>
+  <link href="https://edgeneko.aiursoft.com/"/>
   <updated>2022-08-31T16:04:49.000Z</updated>
-  <id>http://edgeneko.aiursoft.com/</id>
+  <id>https://edgeneko.aiursoft.com/</id>
   
   <author>
     <name>EdgeNeko</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Asp.Net Core: 在Cloudflare代理下的Linux服务器中处理ForwardedHeader并获取源IP</title>
-    <link href="http://edgeneko.aiursoft.com/2022/09/01/AspnetForwardHeaderWithCF/"/>
-    <id>http://edgeneko.aiursoft.com/2022/09/01/AspnetForwardHeaderWithCF/</id>
+    <link href="https://edgeneko.aiursoft.com/2022/09/01/AspnetForwardHeaderWithCF/"/>
+    <id>https://edgeneko.aiursoft.com/2022/09/01/AspnetForwardHeaderWithCF/</id>
     <published>2022-08-31T16:04:49.000Z</published>
     <updated>2022-08-31T16:04:49.000Z</updated>
     
@@ -36,29 +36,29 @@
     
     
     
-    <category term="Server Configuration" scheme="http://edgeneko.aiursoft.com/categories/Server-Configuration/"/>
+    <category term="Server Configuration" scheme="https://edgeneko.aiursoft.com/categories/Server-Configuration/"/>
     
     
-    <category term="Linux" scheme="http://edgeneko.aiursoft.com/tags/Linux/"/>
+    <category term="Linux" scheme="https://edgeneko.aiursoft.com/tags/Linux/"/>
     
-    <category term=".Net" scheme="http://edgeneko.aiursoft.com/tags/Net/"/>
+    <category term=".Net" scheme="https://edgeneko.aiursoft.com/tags/Net/"/>
     
-    <category term="Asp.Net Core" scheme="http://edgeneko.aiursoft.com/tags/Asp-Net-Core/"/>
+    <category term="Asp.Net Core" scheme="https://edgeneko.aiursoft.com/tags/Asp-Net-Core/"/>
     
-    <category term="Caddy" scheme="http://edgeneko.aiursoft.com/tags/Caddy/"/>
+    <category term="Caddy" scheme="https://edgeneko.aiursoft.com/tags/Caddy/"/>
     
-    <category term="Cloudflare" scheme="http://edgeneko.aiursoft.com/tags/Cloudflare/"/>
+    <category term="Cloudflare" scheme="https://edgeneko.aiursoft.com/tags/Cloudflare/"/>
     
-    <category term="CDN" scheme="http://edgeneko.aiursoft.com/tags/CDN/"/>
+    <category term="CDN" scheme="https://edgeneko.aiursoft.com/tags/CDN/"/>
     
-    <category term="ReverseProxy" scheme="http://edgeneko.aiursoft.com/tags/ReverseProxy/"/>
+    <category term="ReverseProxy" scheme="https://edgeneko.aiursoft.com/tags/ReverseProxy/"/>
     
   </entry>
   
   <entry>
     <title>Visual C++中成员函数指针与前向声明(Forward declaration)导致的异常</title>
-    <link href="http://edgeneko.aiursoft.com/2022/07/31/CppMemberFunctionPointer/"/>
-    <id>http://edgeneko.aiursoft.com/2022/07/31/CppMemberFunctionPointer/</id>
+    <link href="https://edgeneko.aiursoft.com/2022/07/31/CppMemberFunctionPointer/"/>
+    <id>https://edgeneko.aiursoft.com/2022/07/31/CppMemberFunctionPointer/</id>
     <published>2022-07-30T17:11:25.000Z</published>
     <updated>2022-07-30T17:11:25.000Z</updated>
     
@@ -75,19 +75,19 @@
     
     
     
-    <category term="C++" scheme="http://edgeneko.aiursoft.com/categories/C/"/>
+    <category term="C++" scheme="https://edgeneko.aiursoft.com/categories/C/"/>
     
     
-    <category term="C++" scheme="http://edgeneko.aiursoft.com/tags/C/"/>
+    <category term="C++" scheme="https://edgeneko.aiursoft.com/tags/C/"/>
     
-    <category term="Visual C++" scheme="http://edgeneko.aiursoft.com/tags/Visual-C/"/>
+    <category term="Visual C++" scheme="https://edgeneko.aiursoft.com/tags/Visual-C/"/>
     
   </entry>
   
   <entry>
     <title>Win下C++ TUI控制台交互应用的一些技巧</title>
-    <link href="http://edgeneko.aiursoft.com/2022/07/10/WinCppTuiTricks/"/>
-    <id>http://edgeneko.aiursoft.com/2022/07/10/WinCppTuiTricks/</id>
+    <link href="https://edgeneko.aiursoft.com/2022/07/10/WinCppTuiTricks/"/>
+    <id>https://edgeneko.aiursoft.com/2022/07/10/WinCppTuiTricks/</id>
     <published>2022-07-10T04:27:23.000Z</published>
     <updated>2022-07-30T16:00:00.000Z</updated>
     
@@ -104,23 +104,23 @@
     
     
     
-    <category term="C++" scheme="http://edgeneko.aiursoft.com/categories/C/"/>
+    <category term="C++" scheme="https://edgeneko.aiursoft.com/categories/C/"/>
     
     
-    <category term="Windows" scheme="http://edgeneko.aiursoft.com/tags/Windows/"/>
+    <category term="Windows" scheme="https://edgeneko.aiursoft.com/tags/Windows/"/>
     
-    <category term="C++" scheme="http://edgeneko.aiursoft.com/tags/C/"/>
+    <category term="C++" scheme="https://edgeneko.aiursoft.com/tags/C/"/>
     
-    <category term="Visual C++" scheme="http://edgeneko.aiursoft.com/tags/Visual-C/"/>
+    <category term="Visual C++" scheme="https://edgeneko.aiursoft.com/tags/Visual-C/"/>
     
-    <category term="Console" scheme="http://edgeneko.aiursoft.com/tags/Console/"/>
+    <category term="Console" scheme="https://edgeneko.aiursoft.com/tags/Console/"/>
     
   </entry>
   
   <entry>
     <title>Clearing console screen in C++ program</title>
-    <link href="http://edgeneko.aiursoft.com/2022/04/10/CPPClearConsole/"/>
-    <id>http://edgeneko.aiursoft.com/2022/04/10/CPPClearConsole/</id>
+    <link href="https://edgeneko.aiursoft.com/2022/04/10/CPPClearConsole/"/>
+    <id>https://edgeneko.aiursoft.com/2022/04/10/CPPClearConsole/</id>
     <published>2022-04-09T16:01:30.000Z</published>
     <updated>2022-04-09T16:01:30.000Z</updated>
     
@@ -137,25 +137,25 @@
     
     
     
-    <category term="C++" scheme="http://edgeneko.aiursoft.com/categories/C/"/>
+    <category term="C++" scheme="https://edgeneko.aiursoft.com/categories/C/"/>
     
     
-    <category term="Windows" scheme="http://edgeneko.aiursoft.com/tags/Windows/"/>
+    <category term="Windows" scheme="https://edgeneko.aiursoft.com/tags/Windows/"/>
     
-    <category term="Linux" scheme="http://edgeneko.aiursoft.com/tags/Linux/"/>
+    <category term="Linux" scheme="https://edgeneko.aiursoft.com/tags/Linux/"/>
     
-    <category term="C++" scheme="http://edgeneko.aiursoft.com/tags/C/"/>
+    <category term="C++" scheme="https://edgeneko.aiursoft.com/tags/C/"/>
     
-    <category term="Visual C++" scheme="http://edgeneko.aiursoft.com/tags/Visual-C/"/>
+    <category term="Visual C++" scheme="https://edgeneko.aiursoft.com/tags/Visual-C/"/>
     
-    <category term="Console" scheme="http://edgeneko.aiursoft.com/tags/Console/"/>
+    <category term="Console" scheme="https://edgeneko.aiursoft.com/tags/Console/"/>
     
   </entry>
   
   <entry>
     <title>在Manjaro中使用BootSplash配置启动动画</title>
-    <link href="http://edgeneko.aiursoft.com/2022/01/23/ManjaroSplash/"/>
-    <id>http://edgeneko.aiursoft.com/2022/01/23/ManjaroSplash/</id>
+    <link href="https://edgeneko.aiursoft.com/2022/01/23/ManjaroSplash/"/>
+    <id>https://edgeneko.aiursoft.com/2022/01/23/ManjaroSplash/</id>
     <published>2022-01-23T10:13:04.000Z</published>
     <updated>2022-01-23T10:13:04.000Z</updated>
     
@@ -173,23 +173,23 @@
     
     
     
-    <category term="OS Configuration" scheme="http://edgeneko.aiursoft.com/categories/OS-Configuration/"/>
+    <category term="OS Configuration" scheme="https://edgeneko.aiursoft.com/categories/OS-Configuration/"/>
     
     
-    <category term="Linux" scheme="http://edgeneko.aiursoft.com/tags/Linux/"/>
+    <category term="Linux" scheme="https://edgeneko.aiursoft.com/tags/Linux/"/>
     
-    <category term="Arch Linux" scheme="http://edgeneko.aiursoft.com/tags/Arch-Linux/"/>
+    <category term="Arch Linux" scheme="https://edgeneko.aiursoft.com/tags/Arch-Linux/"/>
     
-    <category term="Manjaro" scheme="http://edgeneko.aiursoft.com/tags/Manjaro/"/>
+    <category term="Manjaro" scheme="https://edgeneko.aiursoft.com/tags/Manjaro/"/>
     
-    <category term="KDE" scheme="http://edgeneko.aiursoft.com/tags/KDE/"/>
+    <category term="KDE" scheme="https://edgeneko.aiursoft.com/tags/KDE/"/>
     
   </entry>
   
   <entry>
     <title>Photoshop中将插图转换为渐变线稿效果</title>
-    <link href="http://edgeneko.aiursoft.com/2021/08/29/PSColorSketch/"/>
-    <id>http://edgeneko.aiursoft.com/2021/08/29/PSColorSketch/</id>
+    <link href="https://edgeneko.aiursoft.com/2021/08/29/PSColorSketch/"/>
+    <id>https://edgeneko.aiursoft.com/2021/08/29/PSColorSketch/</id>
     <published>2021-08-29T14:12:51.000Z</published>
     <updated>2021-08-29T14:12:51.000Z</updated>
     
@@ -207,21 +207,21 @@
     
     
     
-    <category term="Creative" scheme="http://edgeneko.aiursoft.com/categories/Creative/"/>
+    <category term="Creative" scheme="https://edgeneko.aiursoft.com/categories/Creative/"/>
     
     
-    <category term="PixelArt" scheme="http://edgeneko.aiursoft.com/tags/PixelArt/"/>
+    <category term="PixelArt" scheme="https://edgeneko.aiursoft.com/tags/PixelArt/"/>
     
-    <category term="Photoshop" scheme="http://edgeneko.aiursoft.com/tags/Photoshop/"/>
+    <category term="Photoshop" scheme="https://edgeneko.aiursoft.com/tags/Photoshop/"/>
     
-    <category term="Anime" scheme="http://edgeneko.aiursoft.com/tags/Anime/"/>
+    <category term="Anime" scheme="https://edgeneko.aiursoft.com/tags/Anime/"/>
     
   </entry>
   
   <entry>
     <title>一台使用Modern Standby的电脑安装了G Hub， 这是它睡眠状态的变化--解决G Hub与Modern Standby不兼容问题</title>
-    <link href="http://edgeneko.aiursoft.com/2021/08/02/ModernStandbyWithGHub/"/>
-    <id>http://edgeneko.aiursoft.com/2021/08/02/ModernStandbyWithGHub/</id>
+    <link href="https://edgeneko.aiursoft.com/2021/08/02/ModernStandbyWithGHub/"/>
+    <id>https://edgeneko.aiursoft.com/2021/08/02/ModernStandbyWithGHub/</id>
     <published>2021-08-02T14:42:44.000Z</published>
     <updated>2022-08-22T16:00:00.000Z</updated>
     
@@ -238,19 +238,19 @@
     
     
     
-    <category term="OS Configuration" scheme="http://edgeneko.aiursoft.com/categories/OS-Configuration/"/>
+    <category term="OS Configuration" scheme="https://edgeneko.aiursoft.com/categories/OS-Configuration/"/>
     
     
-    <category term="Windows" scheme="http://edgeneko.aiursoft.com/tags/Windows/"/>
+    <category term="Windows" scheme="https://edgeneko.aiursoft.com/tags/Windows/"/>
     
-    <category term="Daily" scheme="http://edgeneko.aiursoft.com/tags/Daily/"/>
+    <category term="Daily" scheme="https://edgeneko.aiursoft.com/tags/Daily/"/>
     
   </entry>
   
   <entry>
     <title>在windows上的真正适合强迫症的终端环境</title>
-    <link href="http://edgeneko.aiursoft.com/2020/04/17/WindowsTerminal200417/"/>
-    <id>http://edgeneko.aiursoft.com/2020/04/17/WindowsTerminal200417/</id>
+    <link href="https://edgeneko.aiursoft.com/2020/04/17/WindowsTerminal200417/"/>
+    <id>https://edgeneko.aiursoft.com/2020/04/17/WindowsTerminal200417/</id>
     <published>2020-04-17T02:37:06.000Z</published>
     <updated>2021-06-21T16:00:00.000Z</updated>
     
@@ -268,25 +268,25 @@
     
     
     
-    <category term="OS Configuration" scheme="http://edgeneko.aiursoft.com/categories/OS-Configuration/"/>
+    <category term="OS Configuration" scheme="https://edgeneko.aiursoft.com/categories/OS-Configuration/"/>
     
     
-    <category term="Windows" scheme="http://edgeneko.aiursoft.com/tags/Windows/"/>
+    <category term="Windows" scheme="https://edgeneko.aiursoft.com/tags/Windows/"/>
     
-    <category term="Bash" scheme="http://edgeneko.aiursoft.com/tags/Bash/"/>
+    <category term="Bash" scheme="https://edgeneko.aiursoft.com/tags/Bash/"/>
     
-    <category term="Terminal" scheme="http://edgeneko.aiursoft.com/tags/Terminal/"/>
+    <category term="Terminal" scheme="https://edgeneko.aiursoft.com/tags/Terminal/"/>
     
-    <category term="Shell" scheme="http://edgeneko.aiursoft.com/tags/Shell/"/>
+    <category term="Shell" scheme="https://edgeneko.aiursoft.com/tags/Shell/"/>
     
-    <category term="PowerShell" scheme="http://edgeneko.aiursoft.com/tags/PowerShell/"/>
+    <category term="PowerShell" scheme="https://edgeneko.aiursoft.com/tags/PowerShell/"/>
     
   </entry>
   
   <entry>
     <title>从零开始创建基于Angular的Electron应用程序</title>
-    <link href="http://edgeneko.aiursoft.com/2020/01/23/ElectronAngular/"/>
-    <id>http://edgeneko.aiursoft.com/2020/01/23/ElectronAngular/</id>
+    <link href="https://edgeneko.aiursoft.com/2020/01/23/ElectronAngular/"/>
+    <id>https://edgeneko.aiursoft.com/2020/01/23/ElectronAngular/</id>
     <published>2020-01-23T04:01:18.000Z</published>
     <updated>2021-06-21T16:00:00.000Z</updated>
     
@@ -303,23 +303,23 @@
     
     
     
-    <category term="Web Development" scheme="http://edgeneko.aiursoft.com/categories/Web-Development/"/>
+    <category term="Web Development" scheme="https://edgeneko.aiursoft.com/categories/Web-Development/"/>
     
     
-    <category term="Web" scheme="http://edgeneko.aiursoft.com/tags/Web/"/>
+    <category term="Web" scheme="https://edgeneko.aiursoft.com/tags/Web/"/>
     
-    <category term="Electron" scheme="http://edgeneko.aiursoft.com/tags/Electron/"/>
+    <category term="Electron" scheme="https://edgeneko.aiursoft.com/tags/Electron/"/>
     
-    <category term="Angular" scheme="http://edgeneko.aiursoft.com/tags/Angular/"/>
+    <category term="Angular" scheme="https://edgeneko.aiursoft.com/tags/Angular/"/>
     
-    <category term="Desktop" scheme="http://edgeneko.aiursoft.com/tags/Desktop/"/>
+    <category term="Desktop" scheme="https://edgeneko.aiursoft.com/tags/Desktop/"/>
     
   </entry>
   
   <entry>
     <title>ModernMessageBoxLib 发布</title>
-    <link href="http://edgeneko.aiursoft.com/2019/01/31/ModernMessageBoxLib/"/>
-    <id>http://edgeneko.aiursoft.com/2019/01/31/ModernMessageBoxLib/</id>
+    <link href="https://edgeneko.aiursoft.com/2019/01/31/ModernMessageBoxLib/"/>
+    <id>https://edgeneko.aiursoft.com/2019/01/31/ModernMessageBoxLib/</id>
     <published>2019-01-31T13:58:30.000Z</published>
     <updated>2021-06-21T16:00:00.000Z</updated>
     
@@ -336,27 +336,27 @@
     
     
     
-    <category term="Project Publishment" scheme="http://edgeneko.aiursoft.com/categories/Project-Publishment/"/>
+    <category term="Project Publishment" scheme="https://edgeneko.aiursoft.com/categories/Project-Publishment/"/>
     
     
-    <category term="Windows" scheme="http://edgeneko.aiursoft.com/tags/Windows/"/>
+    <category term="Windows" scheme="https://edgeneko.aiursoft.com/tags/Windows/"/>
     
-    <category term="Desktop" scheme="http://edgeneko.aiursoft.com/tags/Desktop/"/>
+    <category term="Desktop" scheme="https://edgeneko.aiursoft.com/tags/Desktop/"/>
     
-    <category term="WPF" scheme="http://edgeneko.aiursoft.com/tags/WPF/"/>
+    <category term="WPF" scheme="https://edgeneko.aiursoft.com/tags/WPF/"/>
     
-    <category term="C#" scheme="http://edgeneko.aiursoft.com/tags/C/"/>
+    <category term="C#" scheme="https://edgeneko.aiursoft.com/tags/C/"/>
     
-    <category term=".Net" scheme="http://edgeneko.aiursoft.com/tags/Net/"/>
+    <category term=".Net" scheme="https://edgeneko.aiursoft.com/tags/Net/"/>
     
-    <category term="Library" scheme="http://edgeneko.aiursoft.com/tags/Library/"/>
+    <category term="Library" scheme="https://edgeneko.aiursoft.com/tags/Library/"/>
     
   </entry>
   
   <entry>
     <title>Saber&#39;s Colorful Startmenu</title>
-    <link href="http://edgeneko.aiursoft.com/2019/01/31/SaberColorfulStartmenu/"/>
-    <id>http://edgeneko.aiursoft.com/2019/01/31/SaberColorfulStartmenu/</id>
+    <link href="https://edgeneko.aiursoft.com/2019/01/31/SaberColorfulStartmenu/"/>
+    <id>https://edgeneko.aiursoft.com/2019/01/31/SaberColorfulStartmenu/</id>
     <published>2019-01-31T03:17:10.000Z</published>
     <updated>2021-06-21T16:00:00.000Z</updated>
     
@@ -373,29 +373,29 @@
     
     
     
-    <category term="Project Publishment" scheme="http://edgeneko.aiursoft.com/categories/Project-Publishment/"/>
+    <category term="Project Publishment" scheme="https://edgeneko.aiursoft.com/categories/Project-Publishment/"/>
     
     
-    <category term="Windows" scheme="http://edgeneko.aiursoft.com/tags/Windows/"/>
+    <category term="Windows" scheme="https://edgeneko.aiursoft.com/tags/Windows/"/>
     
-    <category term="Desktop" scheme="http://edgeneko.aiursoft.com/tags/Desktop/"/>
+    <category term="Desktop" scheme="https://edgeneko.aiursoft.com/tags/Desktop/"/>
     
-    <category term="WPF" scheme="http://edgeneko.aiursoft.com/tags/WPF/"/>
+    <category term="WPF" scheme="https://edgeneko.aiursoft.com/tags/WPF/"/>
     
-    <category term="Win10美化" scheme="http://edgeneko.aiursoft.com/tags/Win10%E7%BE%8E%E5%8C%96/"/>
+    <category term="Win10美化" scheme="https://edgeneko.aiursoft.com/tags/Win10%E7%BE%8E%E5%8C%96/"/>
     
-    <category term="SakuraTrak Studio" scheme="http://edgeneko.aiursoft.com/tags/SakuraTrak-Studio/"/>
+    <category term="SakuraTrak Studio" scheme="https://edgeneko.aiursoft.com/tags/SakuraTrak-Studio/"/>
     
-    <category term="kawaii" scheme="http://edgeneko.aiursoft.com/tags/kawaii/"/>
+    <category term="kawaii" scheme="https://edgeneko.aiursoft.com/tags/kawaii/"/>
     
-    <category term="C#" scheme="http://edgeneko.aiursoft.com/tags/C/"/>
+    <category term="C#" scheme="https://edgeneko.aiursoft.com/tags/C/"/>
     
   </entry>
   
   <entry>
     <title>欢迎来到EdgeNeko&#39;s Site</title>
-    <link href="http://edgeneko.aiursoft.com/2018/01/01/Welcome/"/>
-    <id>http://edgeneko.aiursoft.com/2018/01/01/Welcome/</id>
+    <link href="https://edgeneko.aiursoft.com/2018/01/01/Welcome/"/>
+    <id>https://edgeneko.aiursoft.com/2018/01/01/Welcome/</id>
     <published>2017-12-31T16:00:00.000Z</published>
     <updated>2022-07-30T16:00:00.000Z</updated>
     
@@ -412,7 +412,7 @@
     
     
     
-    <category term="Others" scheme="http://edgeneko.aiursoft.com/categories/Others/"/>
+    <category term="Others" scheme="https://edgeneko.aiursoft.com/categories/Others/"/>
     
     
   </entry>
