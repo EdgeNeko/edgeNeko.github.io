@@ -15,8 +15,35 @@
     <atom:link href="https://edgeneko.aiursoft.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 31 Aug 2022 16:04:49 GMT</pubDate>
+    <pubDate>Tue, 11 Oct 2022 13:18:03 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Microsoft Store(XGP)版本空洞骑士 Hollow Knight 存档备份方法</title>
+      <link>https://edgeneko.aiursoft.com/2022/10/11/XgpHollowKnightSaveBackup/</link>
+      <guid>https://edgeneko.aiursoft.com/2022/10/11/XgpHollowKnightSaveBackup/</guid>
+      <pubDate>Tue, 11 Oct 2022 11:56:34 GMT</pubDate>
+      
+      <description>丝之鸽怎么还不出（）</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="备份"><a href="#备份" class="headerlink" title="备份"></a>备份</h1><ol><li>打开目录: <code>%LocalAppData%\Packages\TeamCherry.15373CD61C66B_y4jvztpgccj42\SystemAppData\wgs</code>.</li><li>在这个目录下你会看到一个或多个目录，格式大概为<code>xxxxxxxxxxxxxxxx_yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy</code>. 其中<code>xxxxxxxxxxxxxxxx</code>为你的<code>XUID</code>, 如果你曾在你的电脑中登录过多个Microsoft Xbox账号, 可以从<a href="https://cxkes.me/xbox/xuid">这个网站</a>查询各个Gamertag对应的<code>XUID</code>.<br><img src="/2022/10/11/XgpHollowKnightSaveBackup/wgs_info.png" alt="wgs_info">  </li><li>进入到对应目录后有若干个文件夹, 而每个文件夹下有一个存档文件及<code>container.xxx</code>文件.<br><img src="/2022/10/11/XgpHollowKnightSaveBackup/containerdir_info.png" alt="containerdir_info">  </li><li>首先要判断这个存档来自第几号存档位. 使用任意文本编辑器或二进制编辑器打开子目录下的<code>container.xxx</code>文件.文件中可以找到<code>userN.dat</code>字样,这就代表了这个存档来自第N号存档位(见下图).<br><img src="/2022/10/11/XgpHollowKnightSaveBackup/container_info.png" alt="container_info"><br><img src="/2022/10/11/XgpHollowKnightSaveBackup/saves_info.png" alt="saves_info">  </li><li>找到你想要备份的存档,然后将同目录下的存档文件复制到你想要备份的目录即可.</li></ol><h1 id="还原"><a href="#还原" class="headerlink" title="还原"></a>还原</h1><ol><li>选择一个没用的存档位, 将这个存档位上的存档清除(如果有的话).</li><li>退出游戏. 打开目录: <code>%appdata%\..\LocalLow\Team Cherry\Hollow Knight\</code>.</li><li>将要还原的存档文件复制到这个目录</li><li>按照你想还原到的存档位将这个存档文件重命名为<code>userN.dat</code>. 例如如果你希望存档应用到第1个存档位,则将其重命名为<code>user1.dat</code>(目标存档位必须空).<br><img src="/2022/10/11/XgpHollowKnightSaveBackup/saves_info.png" alt="saves_info">  </li><li>启动游戏, 存档会自动被导入并上传到xbox云端.<div class="note info flat"><p>这个目录是Steam版空洞骑士的存档位置, 但是在Xbox版本中, 存档并不会主动地被存储到这里. 游戏会在启动的时候判断这个目录是否有存档文件, 如果有且这个存档文件在xbox云中对应的存档位是空的, 则会将这个存档迁入xbox云, 否则不会做任何事情.<br>在迁入之后游戏并不会删除保存在这个位置的存档, 但同时也不会把最新更改存到这里. 如果你之后再次把那个存档位清空了, 重启一下游戏, 你会发现存档又被从这个目录还原回来了(笑)</p></div></li></ol>]]></content:encoded>
+      
+      
+      <category domain="https://edgeneko.aiursoft.com/categories/Daily/">Daily</category>
+      
+      
+      <category domain="https://edgeneko.aiursoft.com/tags/Daily/">Daily</category>
+      
+      <category domain="https://edgeneko.aiursoft.com/tags/Hollow-Knight/">Hollow Knight</category>
+      
+      <category domain="https://edgeneko.aiursoft.com/tags/Game/">Game</category>
+      
+      
+      <comments>https://edgeneko.aiursoft.com/2022/10/11/XgpHollowKnightSaveBackup/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Asp.Net Core: 在Cloudflare代理下的Linux服务器中处理ForwardedHeader并获取源IP</title>
