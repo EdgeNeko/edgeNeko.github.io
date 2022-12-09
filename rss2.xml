@@ -15,8 +15,41 @@
     <atom:link href="https://edgeneko.aiursoft.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Thu, 13 Oct 2022 05:30:38 GMT</pubDate>
+    <pubDate>Fri, 09 Dec 2022 17:53:12 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>从元宇宙微观粒子组成出发对构建元宇宙的想象</title>
+      <link>https://edgeneko.aiursoft.com/2022/12/08/metaverseProtocol-1/</link>
+      <guid>https://edgeneko.aiursoft.com/2022/12/08/metaverseProtocol-1/</guid>
+      <pubDate>Thu, 08 Dec 2022 03:54:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;基本组成&quot;&gt;&lt;a href=&quot;#基本组成&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="基本组成"><a href="#基本组成" class="headerlink" title="基本组成"></a>基本组成</h1><p>仿照现实世界中的量子，我们可以为元宇宙定义一个<code>元粒子</code>作为宇宙的最小组成单位。元粒子可以看作是由真空中的能量波动产生的。元粒子作为一种亚原子粒子，它没有宏观物体的诸如大小、质量、速度等属性。而是拥有几个微观属性，例如自旋、电荷等等。不过这里的定义不一定是绝对的，根据我们想要构造的元宇宙的属性的不同，我们可以为其赋予其它基本属性。但是我们赋予元粒子的属性也可能要受到运行元宇宙的硬件条件的限制。</p><p>基于元粒子，我们就可以定义元宇宙中物质与能量的表示方式。由于物质和能量都是元粒子的一种特定表现形式，我们同时也可以定义物质与能量之间的转换规则(例如在现实世界中，我们有著名的质能方程<code>E=mc^2</code>)。</p><p>由于元粒子本身只是一个纯粹的理论概念，所以元粒子理论上来讲应该在元宇宙中是可以无限存在的，但是实际上由于运行元宇宙的硬件条件的一些限制，例如内存与硬盘的限制，元宇宙中可以表示的元粒子的数量可能会被受到限制。</p><h1 id="基本法则"><a href="#基本法则" class="headerlink" title="基本法则"></a>基本法则</h1><p>在确定元宇宙运行的基本法则的时候，我们要按尽可能少与简单的原则来完成。</p><h2 id="元粒子守恒"><a href="#元粒子守恒" class="headerlink" title="元粒子守恒"></a>元粒子守恒</h2><p>仿照现实世界的广义相对论和能量守恒定律，我们不难可以猜想出元宇宙运行所需的一条最基本法则：</p><p>在一定的封闭系统内，元粒子的数量保持不变。元粒子不会凭空产生，也不会凭空消失。</p><p>由于宏观世界的物质和能量都是由元粒子表示的，我们也可以进一步推导得到元粒子守恒的宏观形式：在一定的封闭系统内，物质和能量不会凭空产生，也不会凭空消失，它们只会从一种形式转化为另一种形式，或者在物质和能量之间转化。</p><h2 id="其它可能的法则"><a href="#其它可能的法则" class="headerlink" title="其它可能的法则"></a>其它可能的法则</h2><p>为了保证元宇宙能以一个可预测的方式运行，我们可能还要为元宇宙制定一些其它法则：例如约束物体运动的定律、描述热量传递的定律等等，当然，这些定律也许可以被统一为元粒子之间相互作用的定律。</p><h1 id="观测"><a href="#观测" class="headerlink" title="观测"></a>观测</h1><p>在现实世界中，根据狭义相对论，一个宏观物体所拥有的速度、质量、时间等属性，不仅与宏观物体本身有关，还与观测者所在的参考系有关。若在元宇宙中也遵循类似的定律，那必须选择一个合理的物体作为观测者，使用其的属性作为参考系才可以得到比较有意义的观测结果。</p><h1 id="一些后话"><a href="#一些后话" class="headerlink" title="一些后话"></a>一些后话</h1><p>上面对元宇宙的论述仅仅停留在想象，实际在能够真正实现元宇宙前仍然有很多理论与现实问题有待解决，例如最直接的现实问题就是存储与算力问题。由于我们使用<code>元粒子</code>来定义我们的元宇宙，要表示出一个有研究价值的宏观世界所需要的粒子数量级是非常庞大的，这必然为运算与存储带来巨大挑战。</p><p>另外，这篇文章的部分内容参考了<a href="https://chat.openai.com/">ChatGPT</a>聊天AI的聊天输出。不得不说这个Ai模型真的颠覆了我的认知…</p><p><img src="/2022/12/08/metaverseProtocol-1/chatgpt.png" alt="chatgpt"></p>]]></content:encoded>
+      
+      
+      <category domain="https://edgeneko.aiursoft.com/categories/Others/">Others</category>
+      
+      
+      <category domain="https://edgeneko.aiursoft.com/tags/metaverse/">metaverse</category>
+      
+      <category domain="https://edgeneko.aiursoft.com/tags/protocol/">protocol</category>
+      
+      <category domain="https://edgeneko.aiursoft.com/tags/imagination/">imagination</category>
+      
+      
+      <comments>https://edgeneko.aiursoft.com/2022/12/08/metaverseProtocol-1/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Microsoft Store(XGP)版本空洞骑士 Hollow Knight 存档备份方法</title>
