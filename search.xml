@@ -80,9 +80,9 @@
             
             <tag> Linux </tag>
             
-            <tag> .Net </tag>
-            
             <tag> Asp.Net Core </tag>
+            
+            <tag> .Net </tag>
             
             <tag> Caddy </tag>
             
@@ -326,11 +326,11 @@
       
         <tags>
             
-            <tag> Web </tag>
-            
             <tag> Electron </tag>
             
             <tag> Angular </tag>
+            
+            <tag> Web </tag>
             
             <tag> Desktop </tag>
             
@@ -359,13 +359,13 @@
             
             <tag> Windows </tag>
             
+            <tag> .Net </tag>
+            
             <tag> Desktop </tag>
             
             <tag> WPF </tag>
             
             <tag> C# </tag>
-            
-            <tag> .Net </tag>
             
             <tag> Library </tag>
             
@@ -398,13 +398,13 @@
             
             <tag> WPF </tag>
             
+            <tag> C# </tag>
+            
             <tag> Win10美化 </tag>
             
             <tag> SakuraTrak Studio </tag>
             
             <tag> kawaii </tag>
-            
-            <tag> C# </tag>
             
         </tags>
       
@@ -417,7 +417,7 @@
       <link href="/2018/01/01/Welcome/"/>
       <url>/2018/01/01/Welcome/</url>
       
-        <content type="html"><![CDATA[<figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123;<span class="title class_">EdgeNeko</span>&#125; <span class="keyword">from</span> <span class="string">&#x27;Earth/Nekos&#x27;</span>;</span><br></pre></td></tr></table></figure><h3 id="Hi-I’m-EdgeNeko"><a href="#Hi-I’m-EdgeNeko" class="headerlink" title="Hi, I’m EdgeNeko."></a>Hi, I’m EdgeNeko.</h3><h3 id="welcome-to-my-profile"><a href="#welcome-to-my-profile" class="headerlink" title="welcome to my profile."></a>welcome to my profile.</h3><p align="center"><a href="//github.com/hv0905"><img src="https://github-readme-stats.vercel.app/api?username=hv0905&hide_border=true&show_icons=true&theme=buefy"/></a></p>  <hr><p>📔 A new-coming college student in SCUT Software Engineering Academy.</p><p>🚀 Knowing a little about both frontend and backend. Focusing on C#, Typescript, C++, knowing a little about Java</p><p>⌨ A member in <a href="//www.aiursoft.com">AiursoftWeb</a>, an organization focusing on open platform and open communication.</p><p style="text-align: center;">  <strong><a href="mailto:edgeneko@aiursoft.com">✉ Email Me</a></strong> |  <strong><a href="//edgeneko.aiursoft.com">💻 Official Website</a></strong> |  <strong><a href="//github.com/hv0905"> ☁ GitHub</a></strong> |  <strong><a href="//space.bilibili.com/26158913">📺 Bilibili</a></strong> |  <strong><a href="https://discord.gg/8dWcRHqdAU">✈️ Discord</a></strong> |  <strong><a href="https://web.kahla.app/user/bcbd915e-6d11-4cc0-8093-d64222e46724">🗨 Kahla</a></strong></p><p align="right">  <i>Cover PixArt: pixiv 73492057</i></p><blockquote><p>更详细的About Me页面在计划中<br>先看看GitHub Profile中的介绍吧（）</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>更详细的About Me页面在计划中<br>先看看GitHub Profile中的介绍吧（）</p></blockquote><figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123;<span class="title class_">EdgeNeko</span>&#125; <span class="keyword">from</span> <span class="string">&#x27;Earth/Nekos&#x27;</span>;</span><br></pre></td></tr></table></figure><h3 id="Hi-I’m-EdgeNeko"><a href="#Hi-I’m-EdgeNeko" class="headerlink" title="Hi, I’m EdgeNeko."></a>Hi, I’m EdgeNeko.</h3><h3 id="welcome-to-my-profile"><a href="#welcome-to-my-profile" class="headerlink" title="welcome to my profile."></a>welcome to my profile.</h3><p align="center"><a href="//github.com/hv0905"><img src="https://github-readme-stats.vercel.app/api?username=hv0905&hide_border=true&show_icons=true&theme=buefy&count_private=true"/></a></p>  <hr><p>📔 A grade-2 college student in SCUT Software Engineering Academy.</p><p>⌨ A member in <a href="//www.aiursoft.com">AiursoftWeb</a>, an organization focusing on open platform and open communication.</p><details>  <summary><b>✨Languages and platforms I used:</b></summary>  <br><h3 id="Working-with"><a href="#Working-with" class="headerlink" title="Working with:"></a>Working with:</h3>  <p align="center">      <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++"/>      <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#" />      <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg" alt="DotNet"/>      <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" />      <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="JavaScript" />      <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" />      <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux"/>  </p><h3 id="Learning"><a href="#Learning" class="headerlink" title="Learning:"></a>Learning:</h3>  <p align="center">    <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" alt="Vue"/>    <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" />    <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/aftereffects/aftereffects-original.svg" alt="AfterEffects"/>      </p><h3 id="Interested-in"><a href="#Interested-in" class="headerlink" title="Interested in:"></a>Interested in:</h3>  <p align="center">    <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/blender/blender-original.svg" alt="Blender"/>    <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust"/>    <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/unrealengine/unrealengine-original.svg" alt="UnrealEngine"/>  </p></details><br><p align="center">  <strong><a href="mailto:edgeneko@aiursoft.com">✉ Email Me</a></strong> |  <strong><a href="//edgeneko.aiursoft.com">💻 Official Website</a></strong> |  <strong><a href="//github.com/hv0905"> ☁ GitHub</a></strong> |  <strong><a href="//space.bilibili.com/26158913">📺 Bilibili</a></strong> |  <strong><a href="https://discord.gg/8dWcRHqdAU">✈️ Discord</a></strong> |  <strong><a href="https://web.kahla.app/user/bcbd915e-6d11-4cc0-8093-d64222e46724">🗨 Kahla</a></strong> |  <strong><a href="https://edgeneko.aiursoft.com/link/">🐸More</a></strong></p><p align="right">  <i>Cover PixArt: pixiv 73492057</i></p>]]></content>
       
       
       <categories>
@@ -435,22 +435,22 @@
     
     
     <entry>
-      <title>404 cat not found</title>
-      <link href="/404.html"/>
-      <url>/404.html</url>
+      <title></title>
+      <link href="/googleae5e415a3a1c64d7.html"/>
+      <url>/googleae5e415a3a1c64d7.html</url>
       
-        <content type="html"><![CDATA[<div style="text-align: center;">    <pre style="font-size: 16px;">    ,-.       _,---._ __  / \/  )    .-'       `./ /   \(  (   ,'            `/    /|\  `-"             \'\   / | `.              ,  \ \ /  |  /`.          ,'-`----Y   | (            ;        |   ' |  ,-.    ,-'         |  / |  | (   |        404 | / )  |  \  `.___________|/ `--'   `--'    </pre>    <h2>在这条世界线上并不存在这个页面QAQ</h2>    <h3><a href="/">返回主页</a></h3></div>]]></content>
+        <content type="html"><![CDATA[google-site-verification: googleae5e415a3a1c64d7.html]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title></title>
-      <link href="/googleae5e415a3a1c64d7.html"/>
-      <url>/googleae5e415a3a1c64d7.html</url>
+      <title>404 cat not found</title>
+      <link href="/404.html"/>
+      <url>/404.html</url>
       
-        <content type="html"><![CDATA[google-site-verification: googleae5e415a3a1c64d7.html]]></content>
+        <content type="html"><![CDATA[<div style="text-align: center;">    <pre style="font-size: 16px;">    ,-.       _,---._ __  / \/  )    .-'       `./ /   \(  (   ,'            `/    /|\  `-"             \'\   / | `.              ,  \ \ /  |  /`.          ,'-`----Y   | (            ;        |   ' |  ,-.    ,-'         |  / |  | (   |        404 | / )  |  \  `.___________|/ `--'   `--'    </pre>    <h2>在这条世界线上并不存在这个页面QAQ</h2>    <h3><a href="/">返回主页</a></h3></div>]]></content>
       
     </entry>
     
@@ -468,22 +468,22 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note warning flat"><p>除以上链接外，若有其它平台的账号声称是我本人，在经我确认前请不要相信，即使他出示了证据。</p></div><h2 id="Contact-Me"><a href="#Contact-Me" class="headerlink" title="Contact Me"></a>Contact Me</h2><ul><li>Mail: <a href="mailto:&#x65;&#x64;&#103;&#101;&#x6e;&#x65;&#107;&#111;&#64;&#97;&#105;&#117;&#x72;&#x73;&#111;&#102;&#116;&#46;&#99;&#x6f;&#x6d;">&#x65;&#x64;&#103;&#101;&#x6e;&#x65;&#107;&#111;&#64;&#97;&#105;&#117;&#x72;&#x73;&#111;&#102;&#116;&#46;&#99;&#x6f;&#x6d;</a></li><li>Microsoft Teams: <a class="btn-beautify blue" href="https://teams.microsoft.com/l/chat/0/0?users=edgeneko@aiursoft.com"   title="打开Teams"><i class="fas fa-arrow-right"></i><span>打开Teams</span></a></li><li>Discord: <code>EdgeNeko#7147</code></li></ul>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div class="note warning flat"><p>除以上链接外，若有其它平台的账号声称是我本人，在经我确认前请不要相信，即使他出示了证据。</p></div><h2 id="Contact-Me"><a href="#Contact-Me" class="headerlink" title="Contact Me"></a>Contact Me</h2><ul><li>Mail: <a href="mailto:&#101;&#100;&#x67;&#101;&#x6e;&#101;&#107;&#111;&#x40;&#x61;&#105;&#x75;&#114;&#115;&#111;&#x66;&#x74;&#46;&#x63;&#111;&#x6d;">&#101;&#100;&#x67;&#101;&#x6e;&#101;&#107;&#111;&#x40;&#x61;&#105;&#x75;&#114;&#115;&#111;&#x66;&#x74;&#46;&#x63;&#111;&#x6d;</a></li><li>Microsoft Teams: <a class="btn-beautify blue" href="https://teams.microsoft.com/l/chat/0/0?users=edgeneko@aiursoft.com"   title="打开Teams"><i class="fas fa-arrow-right"></i><span>打开Teams</span></a></li><li>Discord: <code>EdgeNeko#7147</code></li></ul>]]></content>
       
     </entry>
     

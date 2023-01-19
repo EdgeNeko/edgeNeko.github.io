@@ -97,9 +97,9 @@
     
     <category term="Linux" scheme="https://edgeneko.aiursoft.com/tags/Linux/"/>
     
-    <category term=".Net" scheme="https://edgeneko.aiursoft.com/tags/Net/"/>
-    
     <category term="Asp.Net Core" scheme="https://edgeneko.aiursoft.com/tags/Asp-Net-Core/"/>
+    
+    <category term=".Net" scheme="https://edgeneko.aiursoft.com/tags/Net/"/>
     
     <category term="Caddy" scheme="https://edgeneko.aiursoft.com/tags/Caddy/"/>
     
@@ -362,11 +362,11 @@
     <category term="Web Development" scheme="https://edgeneko.aiursoft.com/categories/Web-Development/"/>
     
     
-    <category term="Web" scheme="https://edgeneko.aiursoft.com/tags/Web/"/>
-    
     <category term="Electron" scheme="https://edgeneko.aiursoft.com/tags/Electron/"/>
     
     <category term="Angular" scheme="https://edgeneko.aiursoft.com/tags/Angular/"/>
+    
+    <category term="Web" scheme="https://edgeneko.aiursoft.com/tags/Web/"/>
     
     <category term="Desktop" scheme="https://edgeneko.aiursoft.com/tags/Desktop/"/>
     
@@ -397,13 +397,13 @@
     
     <category term="Windows" scheme="https://edgeneko.aiursoft.com/tags/Windows/"/>
     
+    <category term=".Net" scheme="https://edgeneko.aiursoft.com/tags/Net/"/>
+    
     <category term="Desktop" scheme="https://edgeneko.aiursoft.com/tags/Desktop/"/>
     
     <category term="WPF" scheme="https://edgeneko.aiursoft.com/tags/WPF/"/>
     
     <category term="C#" scheme="https://edgeneko.aiursoft.com/tags/C/"/>
-    
-    <category term=".Net" scheme="https://edgeneko.aiursoft.com/tags/Net/"/>
     
     <category term="Library" scheme="https://edgeneko.aiursoft.com/tags/Library/"/>
     
@@ -438,13 +438,13 @@
     
     <category term="WPF" scheme="https://edgeneko.aiursoft.com/tags/WPF/"/>
     
+    <category term="C#" scheme="https://edgeneko.aiursoft.com/tags/C/"/>
+    
     <category term="Win10美化" scheme="https://edgeneko.aiursoft.com/tags/Win10%E7%BE%8E%E5%8C%96/"/>
     
     <category term="SakuraTrak Studio" scheme="https://edgeneko.aiursoft.com/tags/SakuraTrak-Studio/"/>
     
     <category term="kawaii" scheme="https://edgeneko.aiursoft.com/tags/kawaii/"/>
-    
-    <category term="C#" scheme="https://edgeneko.aiursoft.com/tags/C/"/>
     
   </entry>
   
@@ -455,14 +455,17 @@
     <published>2017-12-31T16:00:00.000Z</published>
     <updated>2022-07-30T16:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123;<span class="title class_">EdgeNeko</span>&#125; <span class="keyword">from</span> <span class="string">&#x27;Earth/Nekos&#x27;</span>;</span><br></pre></td></tr></table></figure><h3 id="Hi-I’m-EdgeNeko"><a href="#Hi-I’m-EdgeNeko" class="headerlink" title="Hi, I’m EdgeNeko."></a>Hi, I’m EdgeNeko.</h3><h3 id="welcome-to-my-profile"><a href="#welcome-to-my-profile" class="headerlink" title="welcome to my profile."></a>welcome to my profile.</h3><p align="center"><a href="//github.com/hv0905"><img src="https://github-readme-stats.vercel.app/api?username=hv0905&hide_border=true&show_icons=true&theme=buefy"/></a></p>  <hr><p>📔 A new-coming college student in SCUT Software Engineering Academy.</p><p>🚀 Knowing a little about both frontend and backend. Focusing on C#, Typescript, C++, knowing a little about Java</p><p>⌨ A member in <a href="//www.aiursoft.com">AiursoftWeb</a>, an organization focusing on open platform and open communication.</p><p style="text-align: center;">  <strong><a href="mailto:edgeneko@aiursoft.com">✉ Email Me</a></strong> |  <strong><a href="//edgeneko.aiursoft.com">💻 Official Website</a></strong> |  <strong><a href="//github.com/hv0905"> ☁ GitHub</a></strong> |  <strong><a href="//space.bilibili.com/26158913">📺 Bilibili</a></strong> |  <strong><a href="https://discord.gg/8dWcRHqdAU">✈️ Discord</a></strong> |  <strong><a href="https://web.kahla.app/user/bcbd915e-6d11-4cc0-8093-d64222e46724">🗨 Kahla</a></strong></p><p align="right">  <i>Cover PixArt: pixiv 73492057</i></p><blockquote><p>更详细的About Me页面在计划中<br>先看看GitHub Profile中的介绍吧（）</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>更详细的About Me页面在计划中<br>先看看GitHub Profile中的介绍吧（）</p></blockquote><figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123;<span class="title class_">EdgeNeko</span>&#125; <span class="keyword">from</span> <span class="string">&#x27;Earth/Nekos&#x27;</span>;</span><br></pre></td></tr></table></figure><h3 id="Hi-I’m-EdgeNeko"><a href="#Hi-I’m-EdgeNeko" class="headerlink" title="Hi, I’m EdgeNeko."></a>Hi, I’m EdgeNeko.</h3><h3 id="welcome-to-my-profile"><a href="#welcome-to-my-profile" class="headerlink" title="welcome to my profile."></a>welcome to my profile.</h3><p align="center"><a href="//github.com/hv0905"><img src="https://github-readme-stats.vercel.app/api?username=hv0905&hide_border=true&show_icons=true&theme=buefy&count_private=true"/></a></p>  <hr><p>📔 A grade-2 college student in SCUT Software Engineering Academy.</p><p>⌨ A member in <a href="//www.aiursoft.com">AiursoftWeb</a>, an organization focusing on open platform and open communication.</p><details>  <summary><b>✨Languages and platforms I used:</b></summary>  <br><h3 id="Working-with"><a href="#Working-with" class="headerlink" title="Working with:"></a>Working with:</h3>  <p align="center">      <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++"/>      <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#" />      <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg" alt="DotNet"/>      <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" />      <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="JavaScript" />      <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" />      <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux"/>  </p><h3 id="Learning"><a href="#Learning" class="headerlink" title="Learning:"></a>Learning:</h3>  <p align="center">    <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" alt="Vue"/>    <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" />    <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/aftereffects/aftereffects-original.svg" alt="AfterEffects"/>      </p><h3 id="Interested-in"><a href="#Interested-in" class="headerlink" title="Interested in:"></a>Interested in:</h3>  <p align="center">    <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/blender/blender-original.svg" alt="Blender"/>    <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust"/>    <img class="inline-img" style="height: 40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/unrealengine/unrealengine-original.svg" alt="UnrealEngine"/>  </p></details><br><p align="center">  <strong><a href="mailto:edgeneko@aiursoft.com">✉ Email Me</a></strong> |  <strong><a href="//edgeneko.aiursoft.com">💻 Official Website</a></strong> |  <strong><a href="//github.com/hv0905"> ☁ GitHub</a></strong> |  <strong><a href="//space.bilibili.com/26158913">📺 Bilibili</a></strong> |  <strong><a href="https://discord.gg/8dWcRHqdAU">✈️ Discord</a></strong> |  <strong><a href="https://web.kahla.app/user/bcbd915e-6d11-4cc0-8093-d64222e46724">🗨 Kahla</a></strong> |  <strong><a href="https://edgeneko.aiursoft.com/link/">🐸More</a></strong></p><p align="right">  <i>Cover PixArt: pixiv 73492057</i></p>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;figure class=&quot;highlight ts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;更详细的About Me页面在计划中&lt;br&gt;先看看GitHub Profile中的介绍吧（）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure class=&quot;highlight ts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
         
       
     
