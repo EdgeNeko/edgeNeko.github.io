@@ -3,10 +3,10 @@
   <title>EdgeNeko&#39;s blog</title>
   <icon>https://edgeneko.aiursoft.com/img/favicon.png</icon>
   
-  <link href="https://edgeneko.aiursoft.com/atom.xml" rel="self"/>
+  <link href="https://edgeneko.aiursoft.com/sub.atom" rel="self"/>
   
   <link href="https://edgeneko.aiursoft.com/"/>
-  <updated>2022-12-09T17:53:12.684Z</updated>
+  <updated>2023-01-25T07:54:50.937Z</updated>
   <id>https://edgeneko.aiursoft.com/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WhyOptoutDisqus</title>
+    <link href="https://edgeneko.aiursoft.com/2023/01/25/WhyOptoutDisqus/"/>
+    <id>https://edgeneko.aiursoft.com/2023/01/25/WhyOptoutDisqus/</id>
+    <published>2023-01-25T07:54:50.000Z</published>
+    <updated>2023-01-25T07:54:50.937Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>从元宇宙微观粒子组成出发对构建元宇宙的想象</title>
