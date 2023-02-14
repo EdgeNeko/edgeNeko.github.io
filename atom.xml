@@ -3,7 +3,7 @@
   <title>EdgeNeko&#39;s blog</title>
   <icon>https://edgeneko.aiursoft.com/img/favicon.png</icon>
   
-  <link href="https://edgeneko.aiursoft.com/sub.atom" rel="self"/>
+  <link href="https://edgeneko.aiursoft.com/atom.xml" rel="self"/>
   
   <link href="https://edgeneko.aiursoft.com/"/>
   <updated>2022-12-09T17:53:12.684Z</updated>

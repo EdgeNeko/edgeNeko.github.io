@@ -12,7 +12,7 @@
       <link>https://edgeneko.aiursoft.com/</link>
     </image>
     
-    <atom:link href="https://edgeneko.aiursoft.com/sub.rss" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://edgeneko.aiursoft.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
     <pubDate>Fri, 09 Dec 2022 17:53:12 GMT</pubDate>
