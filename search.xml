@@ -4,6 +4,41 @@
   
     
     <entry>
+      <title>在你的Linux发行版系统中访问Windows下的Onedrive目录</title>
+      <link href="/2023/03/18/OnedriveOnLinux/"/>
+      <url>/2023/03/18/OnedriveOnLinux/</url>
+      
+        <content type="html"><![CDATA[<h1 id="问题及原因"><a href="#问题及原因" class="headerlink" title="问题及原因"></a>问题及原因</h1><p>在Linux下，如果你尝试通过<code>ntfs-3g</code>访问NTFS分区下的Onedrive目录，会出现错误无法访问。</p><p>使用<code>ll</code>检查目录，会显示一个错误:<code>unsupported reparse tag 0x9000701a</code></p><p>这是由于Onedrive for Windows使用了一个NTFS下的<code>Reparse Points</code>来实现文件按需下载，可以访问<a href="https://github.com/tuxera/ntfs-3g/wiki/Junctions-Points,-Symbolic-Links-and-Reparse-Points#other-types-of-reparse-points">wiki页面</a>了解更多。</p><div class="note warning flat"><p>本文章不讨论如何在Linux中实现同步Onedrive的相关内容，只考虑如何在Linux下打开Windows中创建的Onedrive目录，主要适用于双系统用户<br>如果你希望在Linux中创建Onedrive目录并同步Onedrive数据，建议使用<a href="https://github.com/abraunegg/onedrive">abraunegg&#x2F;onedrive</a>.</p></div><h1 id="准备条件"><a href="#准备条件" class="headerlink" title="准备条件"></a>准备条件</h1><ul><li>Onedrive目录在一个本地NTFS分区下（未测试分区经过bitlocker加密的情况）</li><li>已安装ntfs-3g，且版本号在<code>2017.3.23AR.4</code>以上. (使用<code>ntfs-3g --version</code>查看版本号)</li></ul><h1 id="已知问题"><a href="#已知问题" class="headerlink" title="已知问题"></a>已知问题</h1><ul><li>Onedrive文件必须在本地可用，才可在Linux中访问<del>(废话，Onedrive for windows又不能跑在Linux下())</del></li><li>不可以在Onedrive目录中<strong>创建</strong>任何文件</li><li>此插件不受ntfs-3g支持且目前（似乎？）已停止维护</li></ul><h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><h2 id="构建ntfs3g-onedrive-plugin"><a href="#构建ntfs3g-onedrive-plugin" class="headerlink" title="构建ntfs3g-onedrive-plugin"></a>构建ntfs3g-onedrive-plugin</h2><p>首先克隆<a href="https://github.com/deerf0x/ntfs3g-onedrive-plugin">ntfs3g-onedrive-plugin仓库</a>到本地目录：  </p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/deerf0x/ntfs3g-onedrive-plugin.git</span><br></pre></td></tr></table></figure><p>如果上面的仓库不再有效，可使用<code>https://git.aiursoft.cn/EdgeNeko/ntfs3g-onedrive-plugin.git</code>.</p><p>依次运行下面的命令来配置并构建插件：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">libtoolize --force</span><br><span class="line"></span><br><span class="line">aclocal</span><br><span class="line"></span><br><span class="line">autoheader</span><br><span class="line"></span><br><span class="line">automake --force-missing --add-missing</span><br><span class="line"></span><br><span class="line">autoconf</span><br><span class="line"></span><br><span class="line">./configure</span><br><span class="line"></span><br><span class="line">make</span><br></pre></td></tr></table></figure><h2 id="安装ntfs3g-onedrive-plugin"><a href="#安装ntfs3g-onedrive-plugin" class="headerlink" title="安装ntfs3g-onedrive-plugin"></a>安装ntfs3g-onedrive-plugin</h2><p>在终端中运行ntfs-3g获取ntfs-3g的插件目录:</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ntfs-3g</span><br></pre></td></tr></table></figure><p><img src="/2023/03/18/OnedriveOnLinux/terminal-ntfs3g.png" alt="Plugin Path of ntfs3g"></p><p>复制上面<code>Plugin path</code>中对应的目录, 然后打开<code>Makefile</code>并编辑：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Use your own editor instead of Kate if necessary</span></span><br><span class="line">kate Makefile</span><br></pre></td></tr></table></figure><p>搜索<code>plugindir</code>常量定义，如下图（截至本文发布时，位于L369):<br><img src="/2023/03/18/OnedriveOnLinux/plugindir.png" alt="plugindir"><br>将其修改为上面获取的目录:<br><img src="/2023/03/18/OnedriveOnLinux/plugindir_modified.png" alt="plugindir modified"><br>完成后保存<code>Makefile</code>并退出.</p><p>最后，运行下面命令完成安装:</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo make install</span><br></pre></td></tr></table></figure><p>如果一切正常，重新挂载包含Onedrive目录的分区，接下来你应该可以正常访问Onedrive目录下的文件了:<br><img src="/2023/03/18/OnedriveOnLinux/completed.png" alt="completed"></p><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><p><a href="https://github.com/tuxera/ntfs-3g/issues/44">https://github.com/tuxera/ntfs-3g/issues/44</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> OS Configuration </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+            <tag> Arch Linux </tag>
+            
+            <tag> Manjaro </tag>
+            
+            <tag> KDE </tag>
+            
+            <tag> Onedrive </tag>
+            
+            <tag> NTFS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>从元宇宙微观粒子组成出发对构建元宇宙的想象</title>
       <link href="/2022/12/08/metaverseProtocol-1/"/>
       <url>/2022/12/08/metaverseProtocol-1/</url>
