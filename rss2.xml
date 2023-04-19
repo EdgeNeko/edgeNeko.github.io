@@ -15,8 +15,45 @@
     <atom:link href="https://edgeneko.aiursoft.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 18 Mar 2023 13:44:43 GMT</pubDate>
+    <pubDate>Wed, 19 Apr 2023 12:56:05 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Linux下从零开始配置一个Nvidia Grid客户机</title>
+      <link>https://edgeneko.aiursoft.com/2023/04/17/NvidiaGridGuestConfiguration/</link>
+      <guid>https://edgeneko.aiursoft.com/2023/04/17/NvidiaGridGuestConfiguration/</guid>
+      <pubDate>Mon, 17 Apr 2023 15:03:41 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;开始之前&quot;&gt;&lt;a href=&quot;#开始之前&quot; class=&quot;headerlink&quot; title=&quot;开始之前&quot;&gt;&lt;/a&gt;开始之前&lt;/h1&gt;&lt;p&gt;本文章假设你已经拥有了一个vSphere&amp;#x2F;KVM&amp;#x2F;Windows</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="开始之前"><a href="#开始之前" class="headerlink" title="开始之前"></a>开始之前</h1><p>本文章假设你已经拥有了一个vSphere&#x2F;KVM&#x2F;Windows HyperV虚拟化平台，并已经向主机节点中安装了Nvidia Tesla计算卡（游戏卡，Quando等非计算卡不在本文讨论范围内）</p><h1 id="获取许可证"><a href="#获取许可证" class="headerlink" title="获取许可证"></a>获取许可证</h1><p>要想在Nvidia VGPU进行Cuda计算或者输出显示，必须安装NVIDIA Grid驱动，但是这个驱动居然是tm要钱的，并且如果你是个人非常难以购买。<br><img src="/2023/04/17/NvidiaGridGuestConfiguration/fxxk_nvidia.png" alt="fxxk nvidia"></p><p>如果你想要使用Vgpu，一般可以通过评估测试获得90天的许可。</p><h2 id="申请评估"><a href="#申请评估" class="headerlink" title="申请评估"></a>申请评估</h2><p>打开<a href="https://www.nvidia.com/en-us/data-center/resources/vgpu-evaluation/">NVIDIA Vgpu评估中心</a>, 选择<code>Rigister For Trial</code>, 邮箱填写参考下方提示，其它信息随意填写即可。</p><div class="note warning flat"><p>在申请评估试用的时候<strong>强烈建议</strong>使用一个自定义域名邮箱，而不是公共邮箱(如Outlook, Gmail, QQ等)，使用自定义域名邮箱可以极大提高申请的通过率和通过速度，一般在五分钟内即可拿到许可证。</p><p>如果你拥有一个自己的域名但没有邮箱服务，可以考虑使用Microsoft Exchange(Paid)或者使用Cloudflare Email Routing服务(Free)快速获得一个邮箱服务。</p></div><h2 id="设置许可服务器并分配许可证"><a href="#设置许可服务器并分配许可证" class="headerlink" title="设置许可服务器并分配许可证"></a>设置许可服务器并分配许可证</h2><p>取得许可证后，使用你的账户登录到<a href="https://nvid.nvidia.com/dashboard/">Nvidia Application Hub Dashboard</a>，然后按照下面步骤操作。</p><ul><li>选择<code>License Server</code>, 点击<code>Create Server</code></li><li>填写名称和描述，<strong>勾选Express CLS Installation</strong>, 选择Next<br><img src="/2023/04/17/NvidiaGridGuestConfiguration/License1.png" alt="License Assign 1"></li><li>为服务器分配许可证，我分别分配了16个vWs许可证与16个vApp许可证到许可服务器中，你可以按照你的部署规模调整部署数量。<br><img src="/2023/04/17/NvidiaGridGuestConfiguration/License2.png" alt="License Assign 2"></li><li>完成后Next, 然后Create Server即可</li><li>左侧选择<code>Server Instances</code>, 然后在<code>Actions</code>中选择<code>Generate Client Configuration Token</code>,选择你刚才创建的许可服务器，然后Download, 这个文件将在之后为服务器配置许可时用到.<br><img src="/2023/04/17/NvidiaGridGuestConfiguration/License3.png" alt="License Assign 3"></li></ul><h1 id="选择合适的vgpu类型"><a href="#选择合适的vgpu类型" class="headerlink" title="选择合适的vgpu类型"></a>选择合适的vgpu类型</h1><p>在为虚拟机分配虚拟GPU时，可以选择不同的vgpu类型</p><div class="note warning flat"><p>由于我们需要使用OpenCL&#x2F;CUDA计算功能，必须确保你选择的GPU类型支持CUDA运算。<br>一般来说，所有<strong>Q-Series和C-Series</strong>的vGPU都支持CUDA计算(Tesla M6, Tesla M10, Tesla M60仅8Q支持)，而A-Series和B-Series不支持CUDA计算。<br><strong>请确保选择Q&#x2F;C Series的vGPU</strong>, 建议选择Q-Series，其功能最为强大<br>详情可以参考<a href="https://docs.nvidia.com/grid/13.0/grid-vgpu-user-guide/index.html#cuda-open-cl-support-vgpu">Nvidia用户手册</a></p></div><p>以Tesla P4举例， Tesla P4有8G的显存，可用的vGPU类型有<code>P4-1Q</code>, <code>P4-2Q</code>, <code>P4-4Q</code>, <code>P4-8Q</code> (这里仅列出Q类型)，其中后面的数字代表了显卡可用的显存数，一般来讲选择最大即可，这里我们选择<code>P4-8Q</code>继续。</p><p>各种不同计算卡可用的vgpu类型可在<a href="https://docs.nvidia.com/grid/13.0/grid-vgpu-user-guide/index.html#supported-gpus-grid-vgpu">grid文档</a>查询。</p><p><img src="/2023/04/17/NvidiaGridGuestConfiguration/vcenter-vgpu-configure.png" alt="vcenter-vgpu-configure"></p><h1 id="安装Grid驱动"><a href="#安装Grid驱动" class="headerlink" title="安装Grid驱动"></a>安装Grid驱动</h1><h2 id="安装驱动"><a href="#安装驱动" class="headerlink" title="安装驱动"></a>安装驱动</h2><p>Grid驱动可以从<a href="https://nvid.nvidia.com/dashboard/">Nvidia Application Hub Dashboard</a>的Software-downloads中下载，一般来讲客户机驱动应与hypervisor驱动版本号一致。<br>驱动有三种分发版本：<code>deb</code>, <code>rpm</code>, <code>runfile</code>。如果你的平台支持安装对应的软件包，则不建议通过<code>runfile</code>安装。</p><p>这里以Ubuntu 22.04 LTS举例，将对应版本的驱动下载到服务器上后，可以使用下面命令完成安装：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install ./nvidia-linux-grid-525_525.105.17_amd64.deb</span><br></pre></td></tr></table></figure><p>这里我使用了<code>apt install</code>来完成安装而不是<code>dpkg -i</code>, 因为<code>apt</code>可以自动安装缺失的依赖。</p><p>安装完成后，输入<code>nvidia-smi</code>，此时应该可以看到vgpu的信息。<br><img src="/2023/04/17/NvidiaGridGuestConfiguration/nvidia-smi.png" alt="nvidia-smi"></p><h2 id="配置许可证"><a href="#配置许可证" class="headerlink" title="配置许可证"></a>配置许可证</h2><p>首先，编辑gridd配置文件：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/nvidia/gridd.conf</span><br></pre></td></tr></table></figure><p>找到<code>FeatureType</code>并将其改为改为<code>1</code>, 其它选项保留不动即可。</p><p>接下来进入<code>/etc/nvidia/ClientConfigToken</code>目录（如果没有则创建），将前面下载到的<code>Client Configuration Token</code>放入，然后使用<code>chmod 744</code>为其修改权限。</p><p>完成后，重启nvidia-gridd:</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl restart nvidia-gridd.service</span><br></pre></td></tr></table></figure><p>最后用<code>nvidia-smi -q</code>确认许可已被正确安装，如果正确安装，你应该可以看到类似下面一段内容：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">vGPU Software Licensed Product</span><br><span class="line">        Product Name                      : NVIDIA RTX Virtual Workstation</span><br><span class="line">        License Status                    : Licensed (Expiry: 2023-4-20 12:14:21 GMT)</span><br></pre></td></tr></table></figure><h1 id="安装CUDA"><a href="#安装CUDA" class="headerlink" title="安装CUDA"></a>安装CUDA</h1><div class="note warning flat"><p>在选择Cuda版本时需要注意，一般来讲Grid驱动会落后标准Nvidia驱动几个版本，因此可能无法安装最新版本的Cuda, 你可以在cuda-release-note中看到不同的cuda版本对驱动的版本要求。</p><p>一些AI软件也有CUDA版本要求，也应该根据它的文档确定应该安装的cuda版本.</p></div><p>打开<a href="https://developer.nvidia.com/cuda-toolkit-archive">cuda-toolkit-archive</a>,选择你想安装的版本，然后选择你对应的系统即可获得对应的cuda toolkit下载链接。</p><div class="note warning flat"><p>只要是Linux系统，无论是什么发行版，你都<strong>不可以使用平台软件包(deb,rpm等)来安装cuda-toolkit</strong>，而是必须使用<strong>runfile</strong>安装<br>如果使用平台软件包安装，在安装时cuda-driver会与已安装的grid-driver冲突，导致安装无法继续。</p></div><p>下载完<code>runfile</code>后，使用<code>sudo</code>运行，然后在选择组件界面，<strong>取消勾选安装cuda-driver，否则grid驱动会被覆盖</strong></p><p><img src="/2023/04/17/NvidiaGridGuestConfiguration/cuda-installer.png" alt="cuda-installer"></p><p>安装完成后，编辑系统<code>PATH</code>环境变量 <code>sudo vim /etc/environment</code></p><p>在<code>PATH</code>末尾加入<code>:/usr/local/cuda-12.0/bin</code> (版本号自行按需修改)</p><p>重新启动你的shell，然后使用下面命令确认cuda已完成安装：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvcc --version</span><br></pre></td></tr></table></figure><h1 id="运行模型"><a href="#运行模型" class="headerlink" title="运行模型"></a>运行模型</h1><p>You’re all set. 接下来就愉快炼丹吧</p><p><img src="/2023/04/17/NvidiaGridGuestConfiguration/chatglm-demo.jpg" alt="chatglm-demo"></p><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ul><li>nvidia-vgpu-user-guide: <a href="https://docs.nvidia.com/grid/13.0/grid-vgpu-user-guide/index.html">https://docs.nvidia.com/grid/13.0/grid-vgpu-user-guide/index.html</a></li><li>nvidia-cuda-guide: <a href="https://docs.nvidia.com/cuda/">https://docs.nvidia.com/cuda/</a></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://edgeneko.aiursoft.com/categories/Server-Configuration/">Server Configuration</category>
+      
+      
+      <category domain="https://edgeneko.aiursoft.com/tags/Linux/">Linux</category>
+      
+      <category domain="https://edgeneko.aiursoft.com/tags/AI/">AI</category>
+      
+      <category domain="https://edgeneko.aiursoft.com/tags/Nvidia/">Nvidia</category>
+      
+      <category domain="https://edgeneko.aiursoft.com/tags/GPU/">GPU</category>
+      
+      <category domain="https://edgeneko.aiursoft.com/tags/Virtualization/">Virtualization</category>
+      
+      
+      <comments>https://edgeneko.aiursoft.com/2023/04/17/NvidiaGridGuestConfiguration/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>在你的Linux发行版系统中访问Windows下的Onedrive目录</title>
